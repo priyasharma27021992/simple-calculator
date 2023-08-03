@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="layout">
+        <div class="title text-center">
+            <p>Simple Calculator using html, css and Javascript</p>
+        </div>
+
+        <div class="calculator-container">
+            <div class="output-row">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="display-screen-1" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="display-screen-2" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col grid btn">(</div>
+                <div class="col grid btn">)</div>
+                <div class="col grid btn">%</div>
+                <div class="col grid" id="clearBtn">CE</div>
+            </div>
+            <div class="row">
+                <div class="col grid btn">7</div>
+                <div class="col grid btn">8</div>
+                <div class="col grid btn">9</div>
+                <div class="col grid btn">/</div>
+            </div>
+            <div class="row">
+                <div class="col grid btn">4</div>
+                <div class="col grid btn">5</div>
+                <div class="col grid btn">6</div>
+                <div class="col grid btn">*</div>
+            </div>
+            <div class="row">
+                <div class="col grid btn">1</div>
+                <div class="col grid btn">2</div>
+                <div class="col grid btn">3</div>
+                <div class="col grid btn">-</div>
+            </div>
+            <div class="row">
+                <div class="col grid btn">0</div>
+                <div class="col grid btn">.</div>
+                <div class="col grid" id="equalBtn">=</div>
+                <div class="col grid btn">+</div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
